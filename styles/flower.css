@@ -20,6 +20,7 @@ body {
 	text-align: center;
 	font-size: 40px;
 	font-weight: 800;
+	margin-top: 130px;
 }
 
 .section-description {
@@ -27,6 +28,7 @@ body {
 	text-align: center;
 	font-size: 18px;
 	font-weight: 400;
+	padding: 0 450px;
 }
 
 /* header related styles */
@@ -66,6 +68,7 @@ body {
 /* main section styles */
 
 /* feature section style */
-.feature{
-	margin: 130px 0;
+.feature {
+	margin: 0px auto;
+	max-width: 1440px;
 }
