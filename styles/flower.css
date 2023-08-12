@@ -79,6 +79,9 @@ body {
 	justify-content: center;
 	gap: 24px;
 	margin-top: 48px;
+	margin-left: 240px;
+	margin-right: 240px;
+	max-width: 1030px;
 }
 
 .pink {
@@ -87,31 +90,50 @@ body {
 	background-image: url('../pngwing\ 6.png');
 	width: 364px;
 	height: 438px;
+	background-repeat: no-repeat;
 	/* text-align: center; */
 }
 
-.caption {
-	color: #272727;
-	text-align: center;
-	font-size: 24px;
-	font-weight: 700;
-	text-decoration-line: underline;
-	margin-top: 450px;
-	margin-bottom: 128px;
-}
 
 .green {
 	border-radius: 300px 300px 0px 0px;
 	background: rgba(5, 151, 160, 0.15);
+	background-image: url('../pngwing\ 5.png');
 	width: 364px;
 	height: 438px;
+	background-repeat: no-repeat;
 	text-align: center;
 }
 
 .ash {
 	border-radius: 300px 300px 0px 0px;
 	background: rgba(71, 125, 17, 0.15);
+	background-image: url('../pngwing\ 7.png');
 	width: 364px;
 	height: 438px;
+	background-repeat: no-repeat;
 	text-align: center;
+}
+
+.caption {
+	color: #272727;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	text-decoration-line: underline;
+	margin-top: 450px;
+	margin-bottom: 128px;
+}
+
+/* delivery section styles */
+
+.delivery {
+	width: 1030px;
+	height: 320px;
+	border-radius: 8px;
+	background: rgba(39, 39, 39, 0.05);
+	display: flex;
+	justify-content: center;
+	margin: 128px 240px;
+	padding: 85px 175px;
 }
