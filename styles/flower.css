@@ -31,6 +31,13 @@ body {
 	padding: 0 450px;
 }
 
+.copy {
+	text-align: center;
+}
+
+.color{
+	color: #E55473;
+}
 /* header related styles */
 .header {
 	background-color: rgba(229, 84, 115, 0.10);
@@ -126,14 +133,15 @@ body {
 /* delivery section styles */
 
 .delivery {
-	width: 700px;
-	height: 320px;
+	width: 1440px;
+	height: 450px;
 	border-radius: 8px;
 	background: rgba(39, 39, 39, 0.05);
 	display: flex;
 	justify-content: center;
 	margin: 128px auto;
 	padding: 85px 175px;
+	gap: 50px;
 }
 
 .same {
@@ -146,13 +154,19 @@ body {
 }
 
 /* deal section styles */
-.deal {
+.deal{
+	
+	
+}
+.deal-banner {
 	display: flex;
 	background: rgba(229, 84, 115, 0.05);
-	padding: 150px 400px;
+	padding: 100px 300px;
+	align-items: center;
+	justify-content: center;
 }
 
-.button-deal{
+.button-deal {
 	border-radius: 8px;
 	background: #E55473;
 	border: 0;
@@ -163,7 +177,7 @@ body {
 	margin-top: 30px;
 }
 
-.left{
+.left {
 	color: #272727;
 	text-align: center;
 	font-size: 40px;
@@ -178,10 +192,64 @@ body {
 
 
 /* instagram section*/
-.instagram-container{
+.instagram-container {
 	display: flex;
 	justify-content: center;
 	gap: 24px;
 	margin: 48px auto;
+	width: 700px;
 }
 
+/* latest deal section */
+.latest-deal {
+	width: 1440px;
+	height: 450px;
+	background-image: url('../Rectangle\ 9.png');
+	border-radius: 8px;
+	justify-content: center;
+	margin: 128px auto;
+	padding: 10px 0;
+	background-repeat: no-repeat;
+}
+
+.content {
+	justify-content: center;
+	padding: 0 250px;
+}
+
+.content input[type="email"] {
+	width: 700px;
+	height: 64px;
+	flex-shrink: 0;
+	border-radius: 8px;
+	background: #FFF;
+	border: 0;
+	font-size: 16px;
+	padding: 0 10px;
+}
+
+/* footer */
+footer {
+	height: 449px;
+	background: #272525;
+	padding: 100px 0;
+}
+
+.footer-title {
+	color: #ffffff;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 130px;
+}
+
+.footer-description {
+	color: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0 450px;
+}
+.copy{
+	color: rgba(255, 255, 255, 0.90);
+}
